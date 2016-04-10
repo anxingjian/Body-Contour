@@ -19,7 +19,7 @@ void setup() {
 }
 
 void draw() {
-  //results();
+  results();
 }
 
 void mousePressed() {   //use milli instead
@@ -71,8 +71,6 @@ fill(255);
 String l = "LOSER : (";
 float lw = textWidth(l);
 text(l, width*3/4-lw/2, height/2+10);
-
-
 
 //Winner
 image(photo1, 0, 0, width/6, height/3);
